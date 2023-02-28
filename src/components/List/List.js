@@ -1,9 +1,9 @@
 import React from "react";
+import Buttons from "../buttons/Buttons";
 import Pagination from "../pagination/Pagination";
 import "./List.scss";
-import { BiEditAlt } from "react-icons/bi";
-import { AiOutlineDelete } from "react-icons/ai";
-
+// import { BiEditAlt } from "react-icons/bi";
+// import { AiOutlineDelete } from "react-icons/ai";
 function List({ user }) {
   return (
     <>
@@ -15,12 +15,7 @@ function List({ user }) {
             <div className="role">{user.role}</div>
           </div>
           <div className="function-buttons">
-            <div className="edit">
-              <BiEditAlt />
-            </div>
-            <div className="delete">
-              <AiOutlineDelete />
-            </div>
+            <Buttons id={user.id} />
           </div>
         </div>
       </div>
