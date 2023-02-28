@@ -1,0 +1,33 @@
+.list-component{
+    margin-top:  2em;
+    
+    .list{
+        width:60vw;
+        
+        margin-inline: auto;
+        border-bottom: 2px solid rgba(128, 128, 128, 0.583);
+        display: flex;
+        justify-content: space-between;
+        gap:4rem;
+        .list-details{
+            display: flex;
+            font-size: 1.3rem;
+            width:70%;
+            justify-content:space-between;
+            padding: 1rem;
+            border: 1px solid red;
+        }
+        .function-buttons{
+            align-items: center;
+            width:10%;
+            display: flex;
+            border: 1px solid red;
+            align-items: center;
+            
+            
+
+        }
+    
+    }
+
+}
