@@ -1,0 +1,19 @@
+.buttons{
+    display: flex;
+    justify-content: center;
+    gap:1rem;
+    width: 100%;
+    
+        .edit{
+            font-size: 1.3rem;
+            color: rgb(3, 53, 53);
+            cursor: pointer;
+
+        }
+        .delete{
+            color: red;
+            font-size: 1.3rem;
+            cursor: pointer;
+        }
+
+}
