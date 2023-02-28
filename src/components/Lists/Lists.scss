@@ -1,0 +1,21 @@
+.lists{
+    margin-top: 1rem;
+    .pagination{
+        display: flex;
+        margin-top: 2rem;
+        align-items: flex-end;
+        list-style: none;
+        justify-content: center;
+        gap:2rem;
+       
+            .page-item{
+                border: 1px soild red;
+                font-size: 1rem;
+            }
+            .page-link{
+                
+
+            }
+    }
+
+}
