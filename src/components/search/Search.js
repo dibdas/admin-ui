@@ -14,8 +14,8 @@ function Search({ setQuery }) {
     setQuery(() => searchParams.get("query"));
   }
   return (
-    <div>
-      <form>
+    <div className="search">
+      <form className="search-forms">
         <input
           type="text"
           placeholder="search"
