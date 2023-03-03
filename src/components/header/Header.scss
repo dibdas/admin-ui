@@ -1,0 +1,30 @@
+.header{
+    width:70%;
+    margin-block:1rem;
+    border: 1px solid red;
+    
+    .headings-checkbox{
+        display: flex;
+    gap:2rem;
+    justify-content: flex-end;
+    
+        .checkbox{
+            margin: 0 4rem 0 0;
+
+        }
+        
+        
+        .headings{
+            display: flex;
+            justify-content: space-between;
+            border: 1px solid red;
+            width: 60%;
+            padding-inline: 2rem;
+            
+    
+        }
+
+    }
+    
+   
+}
