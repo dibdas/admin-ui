@@ -1,14 +1,19 @@
 import React from "react";
 import Buttons from "../buttons/Buttons";
+import Checkbox from "../checkbox/Checkbox";
 import Pagination from "../pagination/Pagination";
 import "./List.scss";
 // import { BiEditAlt } from "react-icons/bi";
 // import { AiOutlineDelete } from "react-icons/ai";
 function List({ user }) {
+  function handleClick(event) {}
   return (
     <>
       <div className="list-component">
         <div className="list">
+          <div className="checkbox">
+            <Checkbox userId={user.id} />
+          </div>
           <div className="list-details">
             <div className="name">{user.name}</div>
             <div className="email">{user.email}</div>
