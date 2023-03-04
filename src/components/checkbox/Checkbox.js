@@ -1,7 +1,7 @@
 import { logDOM } from "@testing-library/react";
 import React, { useState } from "react";
 
-function Checkbox({ userId }) {
+function Checkbox({ userId, onSelect, onSelected }) {
   const [isChecked, setIsChecked] = useState(false);
 
   function handleChange(event) {
@@ -16,7 +16,7 @@ function Checkbox({ userId }) {
         type="checkbox"
         onChange={handleChange}
         value={userId}
-        checked={isChecked}
+        checked={onSelected}
       />
     </div>
   );
