@@ -1,21 +1,40 @@
 .lists{
     margin-top: 1rem;
-    .pagination{
-        display: flex;
-        margin-top: 2rem;
-        align-items: flex-end;
-        list-style: none;
-        justify-content: center;
-        gap:2rem;
-       
-            .page-item{
-                border: 1px soild red;
-                font-size: 1rem;
-            }
-            .page-link{
-                
-
-            }
+    .heading{
+        width: 100vw;
     }
+    .list-array{
+        border: 1px soild red;
+    }
+    .delete-pagination{
+        // display: flex;
+        gap:5rem;
+        border: 1px soild red;
+        .delete-button{
+            text-align: center;
 
+            border: 1px soild green;
+        }
+        .pagination{
+            display: flex;
+            margin-top: 2rem;
+            align-items: flex-end;
+            list-style: none;
+            justify-content: center;
+            border: 1px soild red;
+            gap:2rem;
+           
+                .page-item{
+                    border: 1px soild red;
+                    font-size: 1rem;
+                }
+                .page-link{
+                    
+    
+                }
+        }
+    
+
+    }
+    
 }
