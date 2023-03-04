@@ -8,7 +8,11 @@
         border-bottom: 2px solid rgba(128, 128, 128, 0.583);
         display: flex;
         justify-content: space-between;
+        align-items: center;
         gap:4rem;
+        .checkbox{
+        
+        }
         .list-details{
             display: flex;
             font-size: 1.3rem;
